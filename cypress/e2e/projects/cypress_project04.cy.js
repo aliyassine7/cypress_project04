@@ -21,7 +21,7 @@ describe("ToDo List Form Tests", () => {
   });
 
   it.only("Test Case 02 - Single Task Addition and Removal", () => {
-    
+    toDoPage.typeAndEnterNewTask('this is my new task')
   });
 
   it("Test Case 03 - Multiple Task Operations", () => {});

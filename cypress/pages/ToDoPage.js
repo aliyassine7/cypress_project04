@@ -26,8 +26,8 @@ class ToDoPage {
 
 
   // Methods
-  typeAndEnterNewTask() {
-    this.getNewToDoInputField()
+  typeAndEnterNewTask(message) {
+    this.getNewToDoInputField().type(`${message}{enter}`)
   }
 }
 
